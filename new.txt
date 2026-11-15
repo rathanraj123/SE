@@ -1,0 +1,97 @@
+/*
+You are climbing a staircase. It takes n steps to reach the top. 
+Each time you can either climb 1 or 2 or 3 or ....m steps. 
+In how many distinct ways can you climb to the top?
+
+Constraints:
+------------
+1 ≤ n ≤ 45
+1<= m <=10
+Each time you can take either 1 step or 2 or 3 or m steps.
+You need to compute the total number of distinct ways to climb the staircase.
+
+Input Format:
+--------------
+Line-1: An integer n, representing the number of steps required to reach the top and an integer m how many steps maximum you can take in one jump. 
+
+Output Format:
+---------------
+Line-1: A single integer representing the number of distinct ways to climb to the top.
+
+Sample Input-1: 
+----------------
+2
+2
+
+Sample Output-1: 
+----------------
+2
+
+Explanation: There are two ways to climb to the top:
+1 step + 1 step
+2 steps
+
+Sample Input-2: 
+---------------
+3
+2
+
+Sample Output-2: 
+----------------
+3
+
+
+Explanation: There are three ways to climb to the top:
+1 step + 1 step + 1 step
+1 step + 2 steps
+2 steps + 1 step
+*/
+/*
+Given two positive integers a and b, return their Greatest Common Divisor (GCD).
+The Greatest Common Divisor (GCD) of two integers is the largest positive integer that divides both numbers without leaving a remainder.
+Your solution must use recursion to compute the GCD. Iterative solutions and built-in GCD functions are not allowed.
+Example 1
+Input:
+a = 48
+b = 18
+Output:
+6
+Explanation:
+The common divisors of 48 and 18 are 1, 2, 3, 6. The greatest among them is 6.
+
+Example 2
+Input:
+a = 24
+b = 36
+Output:
+12
+
+Example 3
+Input:
+a = 17
+b = 13
+Output:
+1
+Explanation:
+Since 17 and 13 have no common divisor other than 1, their GCD is 1.
+
+*//*
+	A happy number is a number which eventually reaches 1 when replaced by the sum of the square of each digit. 
+	Whereas if during this process any number gets repeated, the cycle will run infinitely and 
+such numbers are called unhappy numbers.
+
+Example-1: 13 is a happy number because,
+1^2 + 3^2 = 10 and,
+1^2 + 0^2 = 1
+On the other hand, 36 is an unhappy number.
+
+Example-2: 28 is a happy number.
+Because
+28=2^2+8^2=4+64=68
+68=6^2+8^2=36+64=100
+100=1^2+0^2+0^2=1+0+0=1
+
+Example-3 :12 12 is not a happy number
+12=1^2+2^2=1+4=5
+
+*/
